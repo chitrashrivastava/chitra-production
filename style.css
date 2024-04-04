@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{ 
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    font-family: 'Oswald', sans-serif;
+    background-image: linear-gradient(to top #fff 80%,#c3f5ff 20%);
+}
+.navsection{
+    width: 100%;
+    height: 20vh; background-color:rgba(139, 34, 34, 0.587);
+    display: flex; justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(to top #fff 80%,#c3f5ff 20%);
+
+}
+.logo
+{
+    width: 40%;
+    color: #fff;
+    background-image: linear-gradient(#8d98e3 40%,#854fee 60%);
+    padding-left: 100px;
+    box-sizing: border-box;
+}
+.logo{
+    font-size: 1.6rem;
+    animation: aagepiche 2s linear infinite;
+    animation-direction: alternate;
+
+}
+@keyframes aagepiche{
+    from{ padding-left: 40px;}
+    to { padding-right: 40px;}
+}
+nav{
+    width: 60%;
+    background-color:plum;
+    display: flex;
+    justify-content: space-around;
+}
+nav a {
+    text-align: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 900;
+    font-size: 17px;
+    position: relative;
+}
+main{
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.rightside{
+/* border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%; */
+background: local;}
+.rightside img{
+    max-width: 620px;
+    height: 580px;
+}
+.leftside{
+    color: white;
+}
